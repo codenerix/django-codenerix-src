@@ -1,0 +1,36 @@
+dist: xenial
+
+services:
+  - xvfb
+
+language: python
+
+python:
+  - 3.6
+  - 3.7
+  - 3.8
+
+env:
+  - DJANGOVER=django21
+  - DJANGOVER=django22
+  - DJANGOVER=django30
+  - DJANGOVER=django31
+
+install:
+  - pip install tox
+
+matrix:
+  exclude:
+    - python: 3.8
+      env: DJANGOVER=django21
+    - python: 3.8
+      env: DJANGOVER=django22
+
+before_script:
+  - export CHROME_BIN=chromium-browser
+  - export DISPLAY=:99.0
+  - sleep 3 # give xvfb some time to start
+
+script:
+  - export TOX_ENV=py${TRAVIS_PYTHON_VERSION/./}-${DJANGOVER}
+  - tox -r -e "$TOX_ENV"

@@ -1,0 +1,38 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## 2024-10-10
+### Added
+- Add all libraries in their latests version (at this point CODENERIX use older ones)
+- Added angular/material
+- Added angular/angular.js
+- Added evert0n/angular-color-contrast/
+- Added VividCortex/angular-recaptcha
+- Added janantala/angular-qr
+- Added angular-ui
+- Added adonespitogo/angular-base64-upload
+- Added buberdds/angular-bootstrap-colorpicker
+- Added frapontillo/angular-bootstrap-switch
+- Added chieffancypants/angular-loading-bar
+- Added twbs/bootstrap
+- Added flatlogic/bootstrap-tabcollapse
+- Added smalot/bootstrap-datetimepicker
+- Added Bttstrp/bootstrap-switch
+- Added vitalets/checklist-model
+- Added dangrossman/bootstrap-daterangepicker
+- Added jrief/django-angular
+- Added FortAwesome/Font-Awesome/
+- Added l-lin/font-awesome-animation/
+- Added chieffancypants/angular-hotkeys/
+- Added components/jquery-htmlclean
+- Added aFarkas/html5shiv
+- Added jquery/jquery
+- Added moment/moment/
+- Added jpillora/notifyjs
+- Added nohros/nsPopover
+- Added slab/quill
+- Added timdown/rangy
+- Added fraywing/textAngular
